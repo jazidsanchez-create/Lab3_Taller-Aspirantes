@@ -31,7 +31,7 @@ Taller-Aspirantes/
 ├── eliminar.php            # Lógica PHP para borrado de fotos y cancelación
 ├── index.php               # Formulario principal de registro
 └── procesar.php            # Procesador backend, validaciones y tarjeta de éxito
-
+```
 ## 🛠️ Tecnologías Utilizadas
 
 Lenguaje Backend: PHP 8.x
