@@ -1,0 +1,6 @@
+# Desactivar el listado de archivos e impedir la ejecución de scripts en la carpeta
+Options -Indexes
+<FilesMatch "\.(php|phtml|php5)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
