@@ -85,11 +85,10 @@ Muestra la interfaz principal con los campos requeridos y la selección de la fo
 Muestra la confirmación del registro, los datos procesados, la ruta donde se guardó la foto generada y el botón para eliminar o registrar a otro aspirante[cite: 1, 4, 10]:
 
 ## ⚠️ Dificultades y Soluciones
-Problema: Error al procesar la carga de la imagen por restricciones en el tipo de contenido.
-     Solución: Se implementó una verificación estricta de extensiones permitidas (.png, .jpg, .jpeg, .gif, .webp) en procesar.php antes de mover la imagen a la carpeta Uploaded_files/[cite: 1].
-     Problema: Inconsistencia en la codificación de caracteres especiales al desplegar respuestas del servidor.
-      Solución: Se aplicó htmlspecialchars() a todas las cadenas capturadas por $_POST para prevenir ataques XSS y asegurar la correcta visualización del texto[cite: 1].
-
+Problema: Error al procesar la carga de la imagen por restricciones en el tipo de contenido[cite: 1].
+Solución: Se implementó una verificación estricta de extensiones permitidas (.png, .jpg, .jpeg, .gif, .webp) en procesar.php antes de mover la imagen a la carpeta Uploaded_files/.   
+Problema: Inconsistencia en la codificación de caracteres especiales al desplegar respuestas del servidor.
+Solución: Se aplicó htmlspecialchars() a todas las cadenas capturadas por $_POST para prevenir ataques XSS y asegurar la correcta visualización del texto[cite: 1].
 ### 🌐 Tecnologías utilizadas
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
